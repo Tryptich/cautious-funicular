@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Home from '../Component/Header';
 
 class Home extends Component {
 
@@ -6,7 +7,8 @@ class Home extends Component {
   render() {
     return (
       <div>
-        Voici mon composant home
+        Voici ma page home
+        <Header/>
       </div>
     )
   }
