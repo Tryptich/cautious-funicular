@@ -1,17 +1,13 @@
 import React, { Component } from 'react';
-import Home from './pages/home';
+import Page from './components/page';
 
-
-//main app 
 class App extends Component {
 
   render() {
-    return(
-      <div>
-      React
-      <Home/>
-      </div>
-    )}
+    return (
+      <Page />
+    )
+  }
 }
 
 
